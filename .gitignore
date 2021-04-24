@@ -32,30 +32,30 @@ wp-config.php
 wp-content/uploads/
 # 管理画面から画像とかアップロードしたときの保存先ディレクトリ。
 
-wp-content/blogs.dir/
+# wp-content/blogs.dir/
 # v3.5より前で、マルチサイト運用するときに使うようです。
 # 多分もういらない。
 
 wp-content/upgrade/
 # アップグレード処理をするときに一時的に使う・・・のかな
 
-wp-content/backup-db/
+# wp-content/backup-db/
 # Wordpressをバックアップするプラグイン WP-DB Managerを使った場合のバックアップ先ディレクトリ
 
-wp-content/wp-cache-config.php、wp-content/advanced-cache.php
+# wp-content/wp-cache-config.php、wp-content/advanced-cache.php
 # プラグイン：WP Super Cacheで使う
 
-sitemap.xml、sitemap.xml.gz
+# sitemap.xml、sitemap.xml.gz
 # Webマスターツールに登録する用のsitemap.xml
 # 作成しないとありません。
 
 *.log
 # ログ系は必要ないので外す
 
-wp-content/cache/
+# wp-content/cache/
 # プラグイン：WP-Cacheで使う
 
-wp-content/backups/
+# wp-content/backups/
 # Wordpressをバックアップするプラグイン Wordpress Backup to Dropboxでのバックアップ先ディレクトリ
 
 wp-content/themes/*
