@@ -12,7 +12,7 @@
     <!-- /パンくずリスト -->
   
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between">
+    <div class="u-site-width u-flex--between">
         <main class="l-main">
             <div class="p-photo">
                 <section class="l-section p-photo__office c-photo-info">

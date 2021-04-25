@@ -10,7 +10,7 @@
 	<!-- breadcrumbs -->
 	<?php get_template_part('_inc/breadcrumbs'); ?> 
     <!-- コンテンツ -->
-	<div class="u-site-width flex-between u-mt--3l">
+	<div class="u-site-width u-flex--between">
 		<main class="l-main__2colum">
 			<article class="p-blog">
 				<h2 class="p-blog__title"><?php echo the_title(); ?></h2>
@@ -39,10 +39,10 @@
 						<?php
 								$post_object = get_field('blog_office');
 								$image = get_post_meta($post_object, 'office_img', true);
-								$size = 'thumbnail';
+								$size = 'full';
 								?>
 						<div class="c-office-info__img">
-							<a href="<?php the_permalink(); ?>" class="c-office-info__img c-img--outer">
+							<a href="<?php the_permalink(); ?>" class="c-img--outer u-height--100">
 									<?php
 										echo wp_get_attachment_image($image, $size, false,
 											array(
@@ -66,12 +66,23 @@
 									<dd><?php echo get_post_meta($post_object, 'office_time', true); ?></dd>
 								</dl>
 							</div>
+							<div class="c-office-info__link">
+								<a class="c-office-info__link-btn c-btn c-btn--sub" href="<?php the_permalink($post_object); ?>">こちらの事業所を見る</a>
+							</div>
 						</div>
 					</div>
 				</section>
+				<?php
+					$prev_post = get_previous_post();
+					$next_post = get_next_post();
+				?>
 				<div class="p-blog__desc-bottom">
-						<a href="#">新しい記事へ</a>
-						<a href="#">古い記事へ</a>
+					<?php if($prev_post): ?>	
+						<a class="c-link__underline" href="<?php echo get_the_title($prev_post->ID); ?>">古い記事へ</a>
+					<?php endif; ?>
+					<?php if($next_post): ?>
+						<a class="c-link__underline" href="<?php echo get_the_title($next_post->ID); ?>">新しい記事へ</a>
+					<?php endif; ?>
 				</div>
 				<div class="p-blog__comment">
 						<form for="" class="p-blog__comment-form c-form">

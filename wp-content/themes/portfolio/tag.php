@@ -12,7 +12,7 @@
     <!-- /パンくずリスト -->
   
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between">
+    <div class="u-site-width u-flex--between">
         <main class="main__2colum">
             <section class="p-blog-archive">
                 <ul class="p-blog-archive__list">

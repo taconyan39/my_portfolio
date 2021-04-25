@@ -7,7 +7,7 @@
       </div>
     </section>
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between"></div>
+    <div class="u-site-width u-flex--between"></div>
       <main class="l-main">
         <article class="p-office">
 

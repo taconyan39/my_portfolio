@@ -17,7 +17,7 @@
     <!-- /パンくずリスト -->
   
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between">
+    <div class="u-site-width u-flex--between">
         <main class="l-main">
             <div class="p-photo">
 
