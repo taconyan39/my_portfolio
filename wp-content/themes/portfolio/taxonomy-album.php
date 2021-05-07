@@ -78,7 +78,7 @@
                     </ul>
                 </section>
             </div>
+            <?php get_template_part('_inc/pager'); ?>
         </main>
-        <?php get_template_part('_inc/pager'); ?>
     </div>
 <?php get_footer(); ?>

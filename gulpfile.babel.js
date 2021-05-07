@@ -7,6 +7,8 @@ import plumber from 'gulp-plumber';
 import eslint from 'gulp-eslint';
 import rename from 'gulp-rename';
 import sass from 'gulp-sass';
+// Sassでワイルドカードを使えるようにするプラグイン
+import sassGlob from 'gulp-sass-glob';
 
 gulp.task('js-build', function(){
   gulp.src('wp-content/themes/portfolio/src/js/app.js')
@@ -19,6 +21,7 @@ gulp.task('js-build', function(){
 
 gulp.task('sass-build', function(){
   gulp.src('wp-content/themes/portfolio/src/scss/style.scss')
+  .pipe(sassGlob()) // Sassの@importにおけるglobを有効にする
   .pipe(plumber({
     errorHandler: notify.onError("Error: <%= error.message %>")
   }))

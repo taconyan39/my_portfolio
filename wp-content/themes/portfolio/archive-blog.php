@@ -3,7 +3,7 @@
     <!-- ページタイトル -->
     <section class="page-title">
       	<div class="u-site-width">
-        	<h2>ブログ一覧ページ</h2>
+        	<h2>ブログ一覧</h2>
       	</div>
     </section>
 

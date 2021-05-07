@@ -48,7 +48,7 @@
         <ul class="c-nav__list">
           <li class="c-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
           <li class="c-nav__item"><a href="https://proposal-t.com">ポートフォリオ</a></li>
-          <li class="c-nav__item"><a href="<?php echo home_url('demo'); ?>">デモサイト</a></li>
+          <li class="c-nav__item"><a href="<?php echo home_url(); ?>">デモサイト</a></li>
           <li class="c-nav__item"><a href="<?php echo get_post_type_archive_link('office'); ?>">事業所</a></li>
           <li class="c-nav__item"><a href="<?php echo home_url('album'); ?>">アルバム</a></li>
           <li class="c-nav__item"><a href="<?php echo get_post_type_archive_link('blog'); ?>">ブログ</a></li>
