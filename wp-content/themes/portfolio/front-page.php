@@ -251,7 +251,7 @@
           お気軽にお問い合わせください</p>
       </div>
       <div class="p-front-section__btn--wrapper u-flex--center">
-        <a href="<?php echo home_url('contact'); ?>" class="c-btn c-btn--main p-front-section__btn">お問い合わせページへ</a>
+        <a href="<?php echo home_url('contact'); ?>" class="c-btn c-btn--main  p-front-section__btn"><span class="c-btn__slide--action">お問い合わせページへ</span></a>
       </div>
     </section>
     <!-- /section F -->

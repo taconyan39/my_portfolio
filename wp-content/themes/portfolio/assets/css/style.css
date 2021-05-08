@@ -487,6 +487,24 @@ input[type="button"] {
   .c-btn--sub {
     background-color: #c7b79b;
     color: #555; }
+  .c-btn__slide--action {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    z-index: 10; }
+    .c-btn__slide--action::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 0%;
+      display: inline-block;
+      background: #ff2a00;
+      height: 100%;
+      transition: .5s;
+      z-index: -1; }
+    .c-btn__slide--action:hover::before {
+      width: 100%; }
 
 .card {
   width: calc(100% / 3 - 20px);
@@ -1166,6 +1184,8 @@ input[type="button"] {
     width: 300px;
     height: 60px;
     line-height: 60px; }
+    .p-front-section__btn:hover {
+      opacity: 1; }
   .p-front-section__bg--about {
     background-image: url("../image/front-page/design_img_3__lg.png");
     background-position: center;

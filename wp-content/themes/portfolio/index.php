@@ -8,9 +8,10 @@
         </section>
 
         <section class="l-section">
-            <p class="c-section__text">ポートフォリオサイトへ訪問いただきありがとうございます。<br>
-                前職でしていた介護業界のサイトをイメージして作成しております。<br>
-                質問、お仕事の依頼はお問い合わせページからお願いします。
+            <p class="c-section__text">
+              はなまるサービスでは利用者の笑顔を何よりも大切にしております。<br>
+              <br>
+              健康でいられる一番の秘訣は笑顔でいることです。
             </p>
         </section>
 
@@ -18,7 +19,7 @@
         <section class="l-section site-width about">
             <div class="card">
                 <div class="card__top">
-                  <span class="card__tag">HTML&CSS</span>
+                  <span class="card__tag">食事</span>
                   <div class="card__img--wrapper c-img--outer">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/design_img_1.png" alt="" class="c-img">
                   </div>
@@ -33,7 +34,7 @@
 
             <div class="card">
               <div class="card__top">
-                <span class="card__tag">WordPress</span>
+                <span class="card__tag">健康</span>
                 <div class="card__img--wrapper c-img--outer">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/design_img_2.png" alt="" class="c-img">
                 </div>
@@ -170,7 +171,7 @@
                     </div>
                     <div class="card02--right">
                         <div class="card02--img">
-                            <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icons8-mail-100.png" alt="">
+                          <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icons8-mail-100.png" alt="">
                         </div>
                         <span class="card02__link">Contact</span>
                     </div>
