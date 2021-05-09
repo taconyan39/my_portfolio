@@ -24,7 +24,7 @@
             
         <li class="c-img--outer">
             <a href="c-attention__item">
-                <p class="c-img--outer">
+                <p class="c-img--outer c-attention__img">
                     <img class="c-img" src="<?php echo $photo; ?>" alt="<?php echo esc_html($taxonomy->name); ?>">
                 </p>
                 <p class="c-attention__name"><?php echo esc_html($taxonomy->name); ?></p>

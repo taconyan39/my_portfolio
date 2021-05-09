@@ -12,10 +12,10 @@
 		<!-- /パンくずリスト -->
   
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between"></div>
+    <div class="u-site-width u-flex--between"></div>
 		<main class="l-main">
 			<article class="p-office">
-				<div class="p-office__img">
+				<div class="p-office__img c-img--outer">
 					<img src="<?php echo get_field('office_img'); ?>" alt="">
 				</div>
 				<!-- office-info -->

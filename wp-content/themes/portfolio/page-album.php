@@ -11,10 +11,9 @@
     <!-- パンくずリスト -->
     <?php get_template_part('_inc/breadcrumbs'); ?>
     <!-- /パンくずリスト -->
-  
 
     <!-- コンテンツ -->
-    <div class="u-site-width flex-between">
+    <div class="u-site-width u-flex--between">
         <main class="l-main">
             <article class="p-album">
 
@@ -32,12 +31,12 @@
                             $term_idsp = "album_".$term_id; //タクソノミー名前＿+term_id
                             $photo = get_field('album_top_img', $term_idsp);
                         ?>
-                        <li class="c-img--outer">
-                            <a href="#">
-                                <p class="c-img--outer">
+                        <li class="c-img__column c-attention__item">
+                            <a href="<?php the_permalink(get_page_by_path('album')->ID); ?><?php echo esc_html($taxonomy->slug); ?>" class="u-flex--column">
+                                <p class="c-img--outer c-attention__img">
                                     <img class="c-img" src="<?php echo $photo; ?>" alt="<?php  ; ?>">
                                 </p>
-                                <p class="c-attention__name"><?php echo esc_html($taxonomy->name); ?></p>
+                                <p class="c-attention__name"><?php echo $taxonomy->name; ?></p>
                             </a>
                         </li>
                         <?php endforeach; endif; ?>
