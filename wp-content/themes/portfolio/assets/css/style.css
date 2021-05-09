@@ -954,11 +954,12 @@ input[type="button"] {
   z-index: 100;
   height: 80px;
   margin-right: auto;
+  box-sizing: border-box;
   margin-left: auto; }
   @media screen and (max-width: 768px) {
     .p-front-header {
-      height: 50px;
-      line-height: 50px; } }
+      height: 60px;
+      line-height: 60px; } }
   .p-front-header__logo {
     width: 200px;
     flex: 1; }
@@ -966,7 +967,7 @@ input[type="button"] {
       .p-front-header__logo {
         width: 80px;
         flex: none;
-        margin-right: auto; } }
+        margin-left: 0; } }
     .p-front-header__logo > a {
       display: block;
       height: 100%; }
@@ -1024,7 +1025,8 @@ input[type="button"] {
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
-    height: 100%; }
+    height: 100%;
+    box-sizing: border-box; }
   .p-front-header__demo-link {
     background: #ff6600;
     color: #fff;
@@ -1033,21 +1035,14 @@ input[type="button"] {
     display: inline-block; }
     @media screen and (max-width: 768px) {
       .p-front-header__demo-link {
-        width: 80px;
-        font-size: 0.875rem;
-        flex: none; } }
+        display: none; } }
     .p-front-header__demo-link:hover {
       background: #ff2a00; }
-  .p-front-header__btn-menu--wrapper {
-    background: #000;
-    height: auto !important;
-    display: none;
-    width: 50px; }
+  .p-front-header__menu-btn {
+    display: none !important; }
     @media screen and (max-width: 768px) {
-      .p-front-header__btn-menu--wrapper {
-        display: block; } }
-    .p-front-header__btn-menu--wrapper input {
-      display: none; }
+      .p-front-header__menu-btn {
+        display: inline-block !important; } }
 
 #nav-menu:checked ~ .p-front-header__nav--smp {
   transform: translateX(100%); }
@@ -1147,7 +1142,8 @@ input[type="button"] {
   padding-bottom: 80px;
   max-width: 1080px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
   .p-front-section__title, .p-front-section__title--half {
     font-size: 1.25rem;
     font-weight: 700; }

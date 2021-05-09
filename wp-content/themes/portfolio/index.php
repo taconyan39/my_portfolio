@@ -21,12 +21,13 @@
                 <div class="card__top">
                   <span class="card__tag">食事</span>
                   <div class="card__img--wrapper c-img--outer">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/design_img_1.png" alt="" class="c-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/meal.jpeg" alt="" class="c-img">
                   </div>
                 </div>
                 <div class="card__body">
-                  <p>イラストレーターの葉月しあさんのページ作成のお手伝いをさせていただきました。<br>
-                  ワンページでわかりやすいようにサイトを作成さていただきました
+                  <p>当施設では美味しい食事を提供することを大切にしています<br>
+                  健康のために栄養バランスを気にしすぎると、薄味になることも多いです<br>
+                  毎月アンケートにて食事の改善を行なっており、日々改善に努めています。<br>
                   </p>
                   <a href="https://shiahadzuki.com/" class="card__link">LINK</a>
                 </div>
@@ -36,13 +37,13 @@
               <div class="card__top">
                 <span class="card__tag">健康</span>
                 <div class="card__img--wrapper c-img--outer">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/design_img_2.png" alt="" class="c-img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/rehabiri.jpg" alt="" class="c-img">
                 </div>
               </div>
               <div class="card__body">
                 <p>
-                  当サイトはWordPressdeで構成されております。<br>
-                  ブログの記事一覧や写真の表示などの機能も搭載しております。
+                当施設ではリハビリ専用の設備を用意し、まるでスポーツジムのように利用していただけます。<br>
+                予約制にはなりますが、理学療法士がトレーナーとして指導してくれます。
                 </p>
                 <a href="<?php echo get_post_type_archive_link('photo'); ?>" class="card__link">LINK</a>
               </div>
@@ -52,12 +53,12 @@
               <div class="card__top">
                 <span class="card__tag">Laravel</span>
                 <div class="card__img--wrapper c-img--outer">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/design_img_3.png" alt="" class="c-img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/heart.jpg" alt="" class="c-img">
                 </div>
               </div>
               <div class="card__body">
-                <p>Laravelで制作しました、アイデアの投稿サイトです。<br>
-                アイデアの投稿やお気に入り登録、レビューの投稿機能が実装されています。
+                <p>当施設では看護師が常駐しています。
+                    急な体調変化があったとしてもすぐに看護師が対応できますので、安心してご利用いただけます。
                 </p>
                 <a href="https://proposal-t.com/" class="card__link">LINK</a>
               </div>
@@ -122,17 +123,18 @@
               <a href="https://twitter.com/ochazukeyaro3">
                 <div class="card02--left">
                   <h3 class="card02__heading">
-                    Twitter・・・・・・・・・・・・・・・
+                    OFFICE・・・・・・・・・・・・・・・
                   </h3>
                   <div class="card02__body">
-                    <p>Twitterのアカウントです。<br>
-                      介護や、プログラミングに関することをツイートしています。<div class=""></div>
+                    <p>
+                      事業所の紹介です<br>
+                      大阪を中心に事業を運営しております。
                     </p>
                   </div>
                 </div>
                 <div class="card02--right">
                   <div class="card02--img">
-                    <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icons8-twitter-96.png" alt="Twitterのアイコン">
+                    <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icon_building.png" alt="Twitterのアイコン">
                   </div>
                   <span class="card02__link">Check</span>
                 </div>
@@ -142,17 +144,17 @@
               <a href="https://github.com/taconyan39?tab=repositories">
                 <div class="card02--left">
                   <h3 class="card02__heading">
-                    Github・・・・・・・・・・・・・・・
+                    PHOTO・・・・・・・・・・・・・・・
                   </h3>
                   <div class="card02__body">
-                    <p>Githubのアカウントです。<br>
-
+                    <p>各施設で撮影された写真です。
+                    利用者様の笑顔を是非御覧ください
                     </p>
                   </div>
                 </div>
                 <div class="card02--right">
                   <div class="card02--img">
-                    <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icons8-github-96.png" alt="">
+                    <img class="c-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/toppage/icon_photo.png" alt="">
                   </div>
                   <span class="card02__link">Check</span>
                 </div>
@@ -162,7 +164,7 @@
                 <a href="<?php echo home_url('contact'); ?>">
                     <div class="card02--left">
                         <h3 class="card02__heading">
-                          Contact・・・・・・・・・・・・・・・
+                          CONTACT・・・・・・・・・・・・・・・
                         </h3>
                         <div class="card02__body">
                           <p>お問い合わせフォームです。<br>お仕事のご相談やお問い合わせはこちらのページからお願いします。

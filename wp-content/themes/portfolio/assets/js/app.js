@@ -76,6 +76,8 @@ var _smoothScroll2 = _interopRequireDefault(_smoothScroll);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import scrollReveal from 'scrollreveal';
+
 var options = {
   speed: 300, //1000px進むスピード
   easing: 'easeInOutCubic', //イージング
@@ -95,6 +97,9 @@ $(function () {
   });
 
   $('.slick01').slick();
+
+  // drawer
+  $('.drawer').drawer();
 });
 
 /***/ }),
